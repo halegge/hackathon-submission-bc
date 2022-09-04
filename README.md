@@ -1,4 +1,5 @@
 # Project name
+Search Engine Comparison/Graph Modeller
 
 ## Team Members
 disco-johnny & HLegge :-)
@@ -14,11 +15,13 @@ So the two features would be, a basic relevancy scoring for results from differe
 ## Installation
 This section includes detailed instructions for installing the tool, including any terminal commands that need to be executed and dependencies that need to be installed. Instructions should be understandable by non-technical users (e.g. someone who knows how to open a terminal and run commands, but isn't necessarily a programmer), for example:
 
-1. Make sure you have Python version 3.8 or greater installed.
+1. Make sure you have Python version 3.8 or greater installed. And clone the repo with:
+		
+		git clone https://github.com/halegge/hackathon-submission-bc.git
 
 2. Move to the tool's directory and install the tool
 
-        cd hackathon-submission-template
+        cd hackathon-submission-bc
         pip install -r requirements.txt
 		
 3. Replace "_BING_KEY" with your Azure API key, and "SEARCH_KEY" and "SEARCH_ID" with your Google Search API creds.
